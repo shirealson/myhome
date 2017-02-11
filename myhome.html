@@ -81,7 +81,7 @@
 		margin: 0;
 		padding: 0;
 		height: 1080px;
-		width: 60%;
+		width: 1000px;
 		margin: 0 auto;/*水平居中*/
 		background-color:white;
 		box-shadow:0px 0px 10px black;
@@ -89,33 +89,73 @@
 
 	}
 	.main ul,.main h1,.main pre {
-		display: inline-block;
-		font-family: "Microsoft Yahei";
+		display: block;
+		font-family: "Microsoft Yahei";/*主页各板块的显示*/
 		margin-left:50px;
+	}
+	.advertise{/*首页三幅图画的导航*/
+		float: left;
+		margin: 100px 16.6px;
+		width: 300px;
+		height:168px;
+		background-color: orange;
 	}
 	.main pre{
 		font-size: 20px;
 	}
+
+	.guide_logo{/*用于首页的各个板块的导航*/
+		display: block;
+		margin-left:50px;
+		
+		color: black;
+		font-weight: bold;
+		font-family: "Microsoft Yahei";
+		font-size: 36px;
+		text-decoration: none;
+
+	}
+	.guide_logo:hover{
+		color:#307fc1;
+	}
+	
+
 	</style>
 </head>
 <body background="background1.jpg">
 <menu>
 <p class="logo">穗村</p>
 <a class="menu_button" href="#">首页</a>
-<a class="menu_button" href="#">博客</a>
+<a class="menu_button" href="#">学习圈</a>
+<a class="menu_button" href="#">兴趣圈</a>
+<a class="menu_button" href="#">说说</a>
 <a class="menu_button" href="#">联系方式</a>
 <a class="menu_button" href="#">友情链接</a>
 <a href="#" class="login">登录</a>
 <a href="#" class="login">注册</a>
 </menu>
 <div class="main">
-<br/><br/><br/><br/><br/>
-	<h1>你好，世界</h1><br/>
+<div class="advertise"><img src="advertise1.jpg"></div><div class="advertise">宣传2</div><div class="advertise">宣传3</div>
+
+<a href="#" class="guide_logo">学习圈</a>
+<pre>
+	<h1>Hello World!</h1>
+	         激动人心的第一个的第一篇文章（伪)66666666666666666666666
+         试试格式对不对，看来没什么问题，除了主页其他的页面全都没有搞
+</pre>
+<br/><br/>
+<a href="#" class="guide_logo">兴趣圈</a>
+<pre>
+	这里什么也没弄
+</pre>
+<br/><br/>
+<a href="#" class="guide_logo">说说</a>
 <pre>
 	
-	激动人心的第一个的第一篇文章（伪)66666666666666666666666
-试试格式对不对，看来没什么问题，除了主页其他的页面全都没有搞
+	这里什么也没弄，以后设想用爬虫爬我QQ空间的说说放到这里
+	
 </pre>
+
 </div>
 </body>
 </html>
