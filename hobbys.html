@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>
+		博客测试页
+	</title>
+	<style type="text/css">
+	body{margin: 0px;
+		padding: 0px;
+		background-color:white;
+		background-repeat:no-repeat;
+		background-attachment:fixed;
+	}
+	menu{
+		padding:0px;
+		margin: 0px;
+		float: left;
+		background-color:#F60;/*导航栏*/
+		display:block;
+		width: 100%;
+		position: fixed;
+		box-shadow: 0px 0px 10px black;
+
+	}
+	.menu_button{
+		margin: 0px;
+		padding: 0px;
+
+		text-align: center;
+
+		color: white;
+		font-size: 20px;
+		font-family: "Microsoft Yahei";/*导航栏按钮*/
+		text-decoration:none;
+
+		background-color:#F60;
+		display:inline-block;
+		width:100px;
+		line-height: 45px;
+
+
+	}
+	.menu_button:hover,.login:hover{
+		background-color:#D62; 
+	}
+	.logo{
+		margin: 0px;
+		padding: 0px;
+		text-align: center;
+		color: white;
+		font-size: 30px;
+		font-family: "Microsoft Yahei";/*穗村LGGO*/
+		text-decoration:none;
+		background-color:#F60;
+		display:inline-block;
+		width:100px;
+		height:40px;
+		line-height: 40px;
+	}
+	.login{
+		float: right;
+		margin: 0px;
+		padding: 0px;
+
+		text-align: center;
+
+		color: white;
+		font-size: 15px;
+		font-family: "Microsoft Yahei";/*注册按钮*/
+		text-decoration:none;
+
+		background-color:#F60;
+		display:inline-block;
+		width:100px;
+		line-height: 45px;
+	}
+	.normal_a{
+		color: black;
+		font-family: "Microsoft Yahei";/*普通默认的超链接样式*/
+		text-decoration: none;
+	}
+	.normal_a:hover{
+		color:#307fc1;
+	}
+
+
+	.main{
+		/*height: 1080px;*/
+		width: 1000px;
+		margin: 0 auto;/*水平居中*/
+		background-color:white;
+		box-shadow:0px 0px 10px black;
+		display: block;
+
+	}
+
+	
+	.advertise{/*首页三幅图画的导航*/
+		float: left;
+		margin: 100px 16.6px;
+		width: 300px;
+		height:168px;
+		background-color: orange;
+	}
+	article{
+	height:200px;
+	width: 100%;
+	}
+	article:hover{
+		background-color: #d7dfd4;/*文章被选中变灰*/
+	}
+	
+	.article_img{
+	display: inline-block;
+	float: left;
+	width: 200px;
+	height: 100%;
+	margin:0 0 0 50px; /*与上面的导航栏对齐*/
+	
+	}
+	.article_img img{
+		border-radius: 50%;
+		width: 100px;
+		height: 100px;
+		margin: 25%;/*让图片在框中间*/
+		
+	}
+
+		
+	.article_text{
+		/*position: relative;*/
+		float: right;
+		margin:0 17px 0 0;
+
+		display: inline-block;
+		width: 733px;
+		height: 100%;
+		
+		font-family: "Microsoft Yahei";
+		
+		
+
+	}
+	.article_text h1,.article_text p{
+		font-family: "Microsoft Yahei";
+	}
+	.article_text p{
+		font-size: 20px;
+		text-indent: 2em;
+	}
+
+	.guide_logo{/*用于首页的各个板块的导航*/
+		display: block;
+		margin-left:50px;
+		
+		color: black;
+		font-weight: bold;
+		font-family: "Microsoft Yahei";
+		font-size: 36px;
+		text-decoration: none;
+
+	}
+	.guide_logo:hover{
+		color:#307fc1;
+	}
+	
+	.article_type_menu
+	{
+		display: block;
+		width: 900px;
+		height: 45px;
+		line-height: 8px;
+		margin: 10px auto;
+		border-top:1px solid #F60;
+		border-bottom:1px solid #F60;
+
+		
+		
+	}
+
+	
+
+	</style>
+</head>
+<body background="background1.jpg">
+<menu>
+<p class="logo">穗村</p>
+<a class="menu_button" href="myhome.html">首页</a>
+<a class="menu_button" href="study.html">学习圈</a>
+<a class="menu_button" href="hobbys.html">兴趣圈</a>
+<a class="menu_button" href="#">说说</a>
+<a class="menu_button" href="#">联系方式</a>
+<a class="menu_button" href="#">友情链接</a>
+<a href="#" class="login">登录</a>
+<a href="#" class="login">注册</a>
+</menu>
+<div class="main">
+	<br/><br/><br/>
+	<a class="guide_logo" href="hobbys.html">兴趣圈</a>
+	<div class="article_type_menu">
+		<p style="font-family:'Microsoft Yahei'; display: inline-block;font-weight: bold; ">文章分类</p>
+		<a href="#" class="normal_a">动漫</a>
+		<a href="#" class="normal_a">游戏</a>
+		<a href="#" class="normal_a">日式应援</a>
+		<a href="#" class="normal_a">WOTA艺</a>
+		<a class="login" href="#">写新文章</a>
+	</div>
+	
+	
+	<article>
+	
+	
+	
+	<div class="article_img">
+	
+	
+	<img src="article1.png">
+	
+
+	</div>
+	<div class="article_text">
+	<h1><a href="#" class="normal_a">Hello World！</a></h1>
+	<p>	
+	激动人心的第一个的第一篇文章（伪)66666666666666666666666<br/>
+	试试格式对不对，看来没什么问题，除了主页其他的页面全都没有搞
+	</p>
+	</div>
+	
+	
+	
+
+	<br/><br/>
+	
+	
+	
+	</article>
+
+	
+
+	
+	
+	
+
+	
+
+	
+	
+	
+	
+	
+
+</div>
+</body>
+</html>
